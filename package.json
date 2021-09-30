@@ -1,0 +1,19 @@
+{
+  "name": "snw-cicd",
+  "version": "1.0.0",
+  "description": "1. Merge/commit into master\r     * action: test components/application   \r     * action: deploy into specific environment",
+  "main": "index.js",
+  "scripts": {
+    "install": "node ./src/install",
+    "apply": "node ./src/apply"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv-safe": "^8.2.0"
+  }
+}
