@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "install": "node ./src/install",
-    "apply": "node ./src/apply"
+    "apply": "node ./src/apply",
+    "suite": "node ./src/suite"
   },
   "repository": {
     "type": "git"
